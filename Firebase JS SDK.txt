@@ -1,0 +1,20 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBu78lD2USOcQ7sNV8IupbQ5UbmZ1chr9A",
+    authDomain: "kimono-social.firebaseapp.com",
+    databaseURL: "https://kimono-social.firebaseio.com",
+    projectId: "kimono-social",
+    storageBucket: "kimono-social.appspot.com",
+    messagingSenderId: "173872769347",
+    appId: "1:173872769347:web:b06893fb192858ef3fa7f6"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
